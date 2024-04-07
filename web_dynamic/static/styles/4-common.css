@@ -9,3 +9,15 @@ body .container {
     max-width: 1000px;
     margin: 30px auto;
 }
+
+.amenities li {
+    postition: relative;
+    padding-left: 30px;
+}
+
+.amenities input[type="checkbox"] {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
